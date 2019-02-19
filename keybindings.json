@@ -1,0 +1,17 @@
+// Place your key bindings in this file to override the defaults
+[
+    { 
+        "key": "ctrl+m ctrl+o",         
+        "command": "editor.foldAll",
+        "when": "editorTextFocus" 
+    },
+    { 
+        "key": "ctrl+k ctrl+j",         
+        "command": "editor.unfoldAll",
+        "when": "editorTextFocus" 
+    },
+    { 
+        "key": "ctrl+shift+s",              
+        "command": "workbench.action.files.saveAll" 
+    },
+]

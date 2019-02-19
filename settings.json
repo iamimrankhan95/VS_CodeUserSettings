@@ -1,0 +1,16 @@
+{
+    "editor.fontFamily": "Operator Mono Light,Roboto,Consolas, 'Courier New', monospace",
+    "files.autoSave": "afterDelay",
+    "workbench.iconTheme": "eq-material-theme-icons-darker",
+    "material-icon-theme.showWelcomeMessage": false,
+    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "git.autofetch": true,
+    "vsicons.projectDetection.autoReload": true,
+    "editor.formatOnSave": true,
+    "emmet.includeLanguages": {
+        "razor": "html"
+    },
+    "files.associations": {
+        "*.cshtml": "html"
+    }
+}
