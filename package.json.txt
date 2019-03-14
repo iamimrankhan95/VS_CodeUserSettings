@@ -1,0 +1,61 @@
+npm init
+
+will create package.json file
+
+To install , update and uninstall packages under dependencies into package.json file:
+
+Command line :
+
+npm install <pkg>@* --save 
+
+will automatically add the latest version for the package under dependencies into package.json file
+
+EX:
+
+npm install node-markdown@* --save
+
+Command line:
+
+npm install <pkg> --save
+
+also will automatically add the latest version for the package under dependencies into package.json file
+
+if you need specific version for a package use this Command line:
+
+npm install <pkg>@<version> --save
+
+will automatically add specific version of package under dependencies into package.json file
+
+EX:
+
+npm install koa-views@1.0.0 --save
+
+if you need specific range of version for a package use this Command line:
+
+npm install <pkg>@<version range>
+
+will automatically add the latest version for the package between range of version under dependencies into package.json file
+
+EX:
+
+npm install koa-views@">1.0.0 <1.2.0" --save
+
+For more details about how to write version for package npm Doc
+
+Command line:
+
+npm update --save
+
+will update packages into package.json file and will automatically add updated version for all packages under dependencies into package.json file
+
+Command line:
+
+npm uninstall <pkg> --save
+
+will automatically remove package from dependencies into package.json file and remove package from node_module folder
+
+update package.json with latest and update project
+$ npm install -g npm-check-updates
+$ ncu -u
+$ npm install  
+
