@@ -54,7 +54,7 @@ npm uninstall <pkg> --save
 
 will automatically remove package from dependencies into package.json file and remove package from node_module folder
 
-update package.json with latest and update project
+update package.json with latest and update project:
 $ npm install -g npm-check-updates
 $ ncu -u
 $ npm install  

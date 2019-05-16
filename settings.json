@@ -3,14 +3,20 @@
     "files.autoSave": "afterDelay",
     "workbench.iconTheme": "eq-material-theme-icons-darker",
     "material-icon-theme.showWelcomeMessage": false,
-    "workbench.colorTheme": "Material Theme Darker High Contrast",
     "git.autofetch": true,
-    "vsicons.projectDetection.autoReload": true,
     "editor.formatOnSave": true,
     "emmet.includeLanguages": {
         "razor": "html"
     },
     "files.associations": {
-        "*.cshtml": "html"
-    }
+        "*.cshtml": "html",
+        "*.cs": "csharp"
+    },
+    "git.enableSmartCommit": true,
+    "editor.tokenColorCustomizations": {
+        "comments": "#098a09"
+    },
+    "window.zoomLevel": 0,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "workbench.colorTheme": "Material Theme Darker High Contrast"
 }
