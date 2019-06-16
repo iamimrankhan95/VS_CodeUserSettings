@@ -14,4 +14,12 @@
         "key": "ctrl+shift+s",              
         "command": "workbench.action.files.saveAll" 
     },
+    {
+  "key": "ctrl+shift+l",
+  "command": "editor.action.insertSnippet",
+  "when": "editorTextFocus",
+  "args": {
+    "snippet": "console.log('${TM_SELECTED_TEXT}$1')$2;"
+  }
+}
 ]
