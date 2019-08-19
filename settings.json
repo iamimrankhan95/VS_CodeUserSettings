@@ -1,16 +1,23 @@
 {
     "editor.fontFamily": "Operator Mono Light,Roboto,Consolas, 'Courier New', monospace",
-    "files.autoSave": "afterDelay",
-    "workbench.iconTheme": "eq-material-theme-icons-darker",
+    "files.autoSave": "off",
+    "workbench.iconTheme": "material-icon-theme",
     "material-icon-theme.showWelcomeMessage": false,
-    "workbench.colorTheme": "Material Theme Darker High Contrast",
     "git.autofetch": true,
-    "vsicons.projectDetection.autoReload": true,
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": false,
     "emmet.includeLanguages": {
         "razor": "html"
     },
     "files.associations": {
-        "*.cshtml": "html"
-    }
+        "*.cshtml": "html",
+        "*.cs": "csharp"
+    },
+    "git.enableSmartCommit": true,
+    "editor.tokenColorCustomizations": {
+        "comments": "#098a09"
+    },
+    "window.zoomLevel": 0,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDelete": false,
+    "workbench.colorTheme": "Material Theme Darker High Contrast"
 }
