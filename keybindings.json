@@ -1,47 +1,38 @@
 // Place your key bindings in this file to override the defaults
 [
     {
-        "key": "ctrl+m ctrl+o",
-        "command": "editor.foldAll",
-        "when": "editorTextFocus"
+        "key": "ctrl+shift+s",
+        "command": "saveAll"
     },
     {
-        "key": "ctrl+k ctrl+j",
-        "command": "editor.unfoldAll",
-        "when": "editorTextFocus"
+        "key": "ctrl+k s",
+        "command": "-saveAll"
+    },
+    {
+        "key": "ctrl+k s",
+        "command": "workbench.action.files.saveAs"
     },
     {
         "key": "ctrl+shift+s",
-        "command": "workbench.action.files.saveAll"
+        "command": "-workbench.action.files.saveAs"
+    },
+    {
+        "key": "ctrl+k s",
+        "command": "workbench.action.files.saveLocalFile",
+        "when": "remoteFileDialogVisible"
+    },
+    {
+        "key": "ctrl+shift+s",
+        "command": "-workbench.action.files.saveLocalFile",
+        "when": "remoteFileDialogVisible"
     },
     {
         "key": "ctrl+shift+l",
         "command": "editor.action.insertSnippet",
         "when": "editorTextFocus",
         "args": {
-            "snippet": "console.log(${TM_SELECTED_TEXT}$1)$2;"
+          "snippet": "console.log('${TM_SELECTED_TEXT}$1:--> ', ${TM_SELECTED_TEXT}$1)$2;"
         }
-    },
-    {
-        "key": "ctrl+k ctrl+d",
-        "command": "editor.action.formatDocument",
-        "when": "editorHasDocumentFormattingProvider && editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "shift+alt+f",
-        "command": "-editor.action.formatDocument",
-        "when": "editorHasDocumentFormattingProvider && editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+shift+g",
-        "command": "gitlens.views.search:scm.focus"
-    },
-    {
-        "key": "alt+c alt+o",
-        "command": "git.commit"
-    },
-    {
-        "key": "alt+s alt+c",
-        "command": "git.sync"
-    }
+      }
 ]
+//----------------------------------------------------------------------

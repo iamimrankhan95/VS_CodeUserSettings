@@ -1,0 +1,20 @@
+Oct 12, 2021 5:12:59 PM org.eclipse.lemminx.XMLLanguageServer initialize
+INFO: Initializing XML Language server
+LemMinX Server info:
+ - Version : 0.18.0
+ - Native Image
+ - VM Version : 11.0.9
+ - Git [Branch 61ac76820f1a87405a75530a054e40e63dbf18e4] 61ac768 - [maven-release-plugin] prepare release 0.18.0
+Oct 12, 2021 5:13:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+Oct 12, 2021 5:14:08 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2021 10:26:43 AM org.eclipse.lemminx.commons.ParentProcessWatcher run
+WARNING: Parent process stopped running, forcing server exit
+Oct 13, 2021 10:26:48 AM org.eclipse.lemminx.XMLLanguageServer initialize
+INFO: Initializing XML Language server
+LemMinX Server info:
+ - Version : 0.18.0
+ - Native Image
+ - VM Version : 11.0.9
+ - Git [Branch 61ac76820f1a87405a75530a054e40e63dbf18e4] 61ac768 - [maven-release-plugin] prepare release 0.18.0
